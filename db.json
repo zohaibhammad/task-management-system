@@ -1,0 +1,16 @@
+{
+  "users": [
+    { "id": 1, "username": "user1", "password": "password1", "groupId": 1 },
+    { "id": 2, "username": "user2", "password": "password2", "groupId": 1 },
+    { "id": 3, "username": "user3", "password": "password3", "groupId": 2 }
+  ],
+  "groups": [
+    { "id": 1, "name": "Group 1" },
+    { "id": 2, "name": "Group 2" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Task 1", "userId": 1 },
+    { "id": 2, "title": "Task 2", "userId": 2 },
+    { "id": 3, "title": "Task 3", "userId": 3 }
+  ]
+}

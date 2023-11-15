@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+            "App": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/App"],
+            "App.scss": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/App.scss"],
+            "Assets": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Assets"],
+            "Components": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Components"],
+            "Constants": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Constants"],
+            "I18n": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/I18n"],
+            "Middlewares": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Middlewares"],
+            "Pages": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Pages"],
+            "Redux": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Redux"],
+            "RouteConfig": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/RouteConfig"],
+            "Routes": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Routes"],
+            "Utils": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/Utils"],
+            "index.scss": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/index.scss"],
+            "main": ["/media/zohaibhammad/Data Drive/My Data/vite-project/src/main"]
+        }
+    }
+}
