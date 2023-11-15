@@ -1,13 +1,1 @@
 @import "bootstrap/scss/bootstrap";
-.pages{
-  display: none;
-}
-
-@media all and (orientation:landscape) {
-  .rotate {
-    display: none;
-  }
-  .pages{
-    display: block;
-  }
-}

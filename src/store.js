@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import rootReducer from "./Redux";
+import Reducer from "./Redux/Reducer.js";
 
 export const store = configureStore({
   devTools: import.meta.env.NODE_ENV !== "production",
-  reducer: rootReducer,
+  reducer: Reducer,
 });
