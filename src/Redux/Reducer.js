@@ -6,14 +6,17 @@ const initialState = {
 };
 
 export const Slice = createSlice({
-  name: "Reducer",
+  name: "GeneralReducer",
   initialState,
   reducers: {
     setUser: (state, { payload }) => {
       state.user = payload;
       localStorage.setItem("user", JSON.stringify(payload));
     },
+    setTasks: (state, { payload }) => {
+      state.tasks = [...payload];
+    },
   },
 });
-export const { setUser } = Slice.actions;
+export const { setUser, setTasks } = Slice.actions;
 export default Slice.reducer;

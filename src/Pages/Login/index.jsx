@@ -2,7 +2,7 @@ import { Button, Container, Form } from "react-bootstrap";
 import "./style.scss";
 import SnackBar from "Components/SnackBar.jsx";
 import { useDispatch } from "react-redux";
-import { setUser } from "Redux/Reducer.js";
+import { setUser } from "../../Redux/Reducer.js";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -34,7 +34,7 @@ const Login = () => {
   };
 
   return (
-    <Container>
+    <Container className="login">
       <h1 className="mb-3">Sign In</h1>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">

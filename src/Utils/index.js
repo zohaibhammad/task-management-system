@@ -1,7 +1,5 @@
 export const isLoggedIn = () => !!localStorage.getItem("user");
 
-export const logout = () => localStorage.removeItem("user");
-
 export const getAllowedRoutes = (routes) => {
   const role = "ADMIN";
   return routes.filter(({ permission }) => {
